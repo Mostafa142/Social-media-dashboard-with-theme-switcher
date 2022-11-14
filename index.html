@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <!-- BOOTSTRAP LINK  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <header class="row">
+          <div class="col-lg-6">
+            <section class="section">
+              <h1 class="heading">Social Media Dashboard</h1>
+              <p class="followers">Total Followers: 23,004</p>
+            </section>
+          </div>
+          <div class="col-lg-2">
+            <div class="form-check form-switch">
+              <label class="form-check-label" for="flexSwitchCheckChecked"
+                >Dark Mode</label
+              >
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="flexSwitchCheckChecked"
+                
+              />
+            </div>
+          </div>
+        </header>
+        <div class="social-container">
+          <ul class="row">
+            <li class="col-lg-3">
+              <div class="social-card mb-4 mb-lg-0">
+                <div class="social-card-heading">
+                  <div class="icon">
+                    <img src="./images/icon-facebook.svg" alt="Facebook Icon" />
+                  </div>
+                  <div class="user">@nathanf</div>
+                </div>
+                <div class="followers">
+                  <h2 class="followers-nums">1987</h2>
+                  <p class="following">Followers</p>
+                </div>
+                <div class="status-constainer">
+                  <div class="status-icon">
+                    <img src="./images/icon-up.svg" alt="icon-up" />
+                  </div>
+                  <p class="status up">12 Today</p>
+                </div>
+              </div>
+            </li>
+            <li class="col-lg-3">
+              <div class="social-card mb-4 mb-lg-0">
+                <div class="social-card-heading">
+                  <div class="icon">
+                    <img src="./images/icon-twitter.svg" alt="twitter Icon" />
+                  </div>
+                  <div class="user">@nathanf</div>
+                </div>
+                <div class="followers">
+                  <h2 class="followers-nums">1044</h2>
+                  <p class="following">Followers</p>
+                </div>
+                <div class="status-constainer">
+                  <div class="status-icon">
+                    <img src="./images/icon-up.svg" alt="icon-up" />
+                  </div>
+                  <p class="status up">99 Today</p>
+                </div>
+              </div>
+            </li>
+            <li class="col-lg-3">
+              <div class="social-card mb-4 mb-lg-0">
+                <div class="social-card-heading">
+                  <div class="icon">
+                    <img
+                      src="./images/icon-instagram.svg"
+                      alt="instagram Icon"
+                    />
+                  </div>
+                  <div class="user">@realnathanf</div>
+                </div>
+                <div class="followers">
+                  <h2 class="followers-nums">11k</h2>
+                  <p class="following">Followers</p>
+                </div>
+                <div class="status-constainer">
+                  <div class="status-icon">
+                    <img src="./images/icon-up.svg" alt="icon-up" />
+                  </div>
+                  <p class="status up">1099 Today</p>
+                </div>
+              </div>
+            </li>
+            <li class="col-lg-3">
+              <div class="social-card mb-4 mb-lg-0">
+                <div class="social-card-heading">
+                  <div class="icon">
+                    <img src="./images/icon-youtube.svg" alt="youtube Icon" />
+                  </div>
+                  <div class="user">Nathan F.</div>
+                </div>
+                <div class="followers">
+                  <h2 class="followers-nums">8239</h2>
+                  <p class="following">Subscribers</p>
+                </div>
+                <div class="status-constainer">
+                  <div class="status-icon">
+                    <img src="./images/icon-down.svg" alt="icon-down" />
+                  </div>
+                  <p class="status down">144 Today</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <section class="section">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2 class="heading">Overview - Today</h2>
+            </div>
+          </div>
+        </section>
+        <div class="statistics-container">
+          <div class="row mb-4">
+            <div class="col-lg-3">
+              <div class="statistics-card mb-4 mb-lg-0">
+                <div class="statistics-card-heading">
+                  <h2 class="statistics-heading">Page Views</h2>
+                  <div class="statistics-icon">
+                    <img src="./images/icon-facebook.svg" alt="facebook icon" />
+                  </div>
+                </div>
+                <div class="statistics-card-content">
+                  <h2 class="number">87</h2>
+                  <div class="status-constainer">
+                    <div class="status-icon">
+                      <img src="./images/icon-up.svg" alt="icon-Up" />
+                    </div>
+                    <p class="status up">3%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="statistics-card mb-4 mb-lg-0">
+                <div class="statistics-card-heading">
+                  <h2 class="statistics-heading">Likes</h2>
+                  <div class="statistics-icon">
+                    <img src="./images/icon-facebook.svg" alt="facebook icon" />
+                  </div>
+                </div>
+                <div class="statistics-card-content">
+                  <h2 class="number">52</h2>
+                  <div class="status-constainer">
+                    <div class="status-icon">
+                      <img src="./images/icon-down.svg" alt="icon-down" />
+                    </div>
+                    <p class="status down">2%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="statistics-card mb-4 mb-lg-0">
+                <div class="statistics-card-heading">
+                  <h2 class="statistics-heading">Likes</h2>
+                  <div class="statistics-icon">
+                    <img
+                      src="./images/icon-instagram.svg"
+                      alt="instagram icon"
+                    />
+                  </div>
+                </div>
+                <div class="statistics-card-content">
+                  <h2 class="number">5462</h2>
+                  <div class="status-constainer">
+                    <div class="status-icon">
+                      <img src="./images/icon-up.svg" alt="icon-up" />
+                    </div>
+                    <p class="status up">2257%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="statistics-card mb-1 mb-lg-0">
+                <div class="statistics-card-heading">
+                  <h2 class="statistics-heading">Profile Views</h2>
+                  <div class="statistics-icon">
+                    <img
+                      src="./images/icon-instagram.svg"
+                      alt="instagram icon"
+                    />
+                  </div>
+                </div>
+                <div class="statistics-card-content">
+                  <h2 class="number">52k</h2>
+                  <div class="status-constainer">
+                    <div class="status-icon">
+                      <img src="./images/icon-up.svg" alt="icon-up" />
+                    </div>
+                    <p class="status up">1375%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="statistics-card mb-4 mb-lg-0">
+                <div class="statistics-card-heading">
+                  <h2 class="statistics-heading">Retweets</h2>
+                  <div class="statistics-icon">
+                    <img src="./images/icon-twitter.svg" alt="twitter icon" />
+                  </div>
+                </div>
+                <div class="statistics-card-content">
+                  <h2 class="number">117</h2>
+                  <div class="status-constainer">
+                    <div class="status-icon">
+                      <img src="./images/icon-up.svg" alt="icon-Up" />
+                    </div>
+                    <p class="status up">303%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="statistics-card mb-4 mb-lg-0">
+                <div class="statistics-card-heading">
+                  <h2 class="statistics-heading">Likes</h2>
+                  <div class="statistics-icon">
+                    <img src="./images/icon-twitter.svg" alt="twitter icon" />
+                  </div>
+                </div>
+                <div class="statistics-card-content">
+                  <h2 class="number">507</h2>
+                  <div class="status-constainer">
+                    <div class="status-icon">
+                      <img src="./images/icon-up.svg" alt="icon-up" />
+                    </div>
+                    <p class="status text-uppercase">553%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="statistics-card mb-4 mb-lg-0">
+                <div class="statistics-card-heading">
+                  <h2 class="statistics-heading">Likes</h2>
+                  <div class="statistics-icon">
+                    <img src="./images/icon-youtube.svg" alt="youtube icon" />
+                  </div>
+                </div>
+                <div class="statistics-card-content">
+                  <h2 class="number">107</h2>
+                  <div class="status-constainer">
+                    <div class="status-icon">
+                      <img src="./images/icon-down.svg" alt="icon-down" />
+                    </div>
+                    <p class="status down">19%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="statistics-card mb-4 mb-lg-0">
+                <div class="statistics-card-heading">
+                  <h2 class="statistics-heading">Total Views</h2>
+                  <div class="statistics-icon">
+                    <img src="./images/icon-youtube.svg" alt="youtube icon" />
+                  </div>
+                </div>
+                <div class="statistics-card-content">
+                  <h2 class="number">1407</h2>
+                  <div class="status-constainer">
+                    <div class="status-icon">
+                      <img src="./images/icon-down.svg" alt="icon-down" />
+                    </div>
+                    <p class="status down">12%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution mb-3">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a target="_blank" href="https://mostafa142.github.io/MyPortfolio/"
+        >Mostafa Fathi</a
+      >.
+    </footer>
+    <!-- Main Script  -->
+    <script src="main.js"></script>
+    <!-- bootstrap Scripts  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
