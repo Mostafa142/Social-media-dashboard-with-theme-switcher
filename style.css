@@ -103,7 +103,6 @@ section.section p.followers {
   width: 100%;
   height: 10px;
   background: var(--Instagram);
-  border-radius: 5px;
   top: -5px;
   z-index: -1;
 }
